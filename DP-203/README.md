@@ -32,6 +32,8 @@ A Type 6 SCD combines Type 1, 2, and 3.
 
 ## Azure Databricks
 
+DropWizard voor het loggen van Spark metrics
+
 ### Architectures
 - Bronze, Silver, Gold
 - Lambda
@@ -62,3 +64,6 @@ Data factory koppelen aan Databrick notebook
 # Glossary
 - **ADLS**: Azure Data Lake Storage
 - **ETL**: Extract, Transform, Load
+- **DDM**: Dynamic Data Masking
+- **DMV**: Dynamic Management Views
+- **DWU**: Data Warehouse Unit
