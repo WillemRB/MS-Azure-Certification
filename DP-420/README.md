@@ -14,6 +14,9 @@
 | Global dist.  | unlimited number of Azure regions | single Azure region            |
 | storage limit | unlimited data                    | 50 GB                          |
 
+You can provision throughput at either or both the database and container levels!
+
+
 ### Basic Hierachy
 Account -> Database -> Containers -> Items
 
@@ -26,6 +29,15 @@ Account -> Database -> Containers -> Items
 | null              | null     | never  |
 | null              | -1       | never  |
 | null              | 2000     | never  |
+
+### [Consistency Levels](https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
+| Level             |        |
+| ----------------- | ------ |
+| Strong            |        |
+| Bounded Staleness |        |
+| Session           |        |
+| Consistent Prefix |        |
+| Eventual          |        |
 
 ## Labs
 - [Create an Azure Cosmos DB Account](https://learn.microsoft.com/en-us/training/modules/try-azure-cosmos-db-sql-api/4-exercise-create-account)
